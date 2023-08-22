@@ -1,0 +1,36 @@
+$backgroundpink:#fde3f2;
+$backgroundgreen: rgb(182, 224, 212);
+$backgroundpurple:rgb(234, 186, 234);
+$textpink:#944c76;
+$textpurple:rgb(234, 140, 234);
+$textgray:rgb(116, 96, 107);
+$pinkflash:#E91E63;
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Preahvihear&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Preahvihear&family=Tilt+Prism&display=swap');
+
+$fontFamilyForTitle: 'Abril Fatface';
+$fontFamilyForDesign: 'Caveat';
+$fontFamilyText: 'Preahvihear';
+$fontFamilyTilt: 'Tilt Prism';
+
+$mq-xs: 20em;
+$mq-sm: 30em;
+$mq-md: 54em;
+$mq-lg: 64em;
+$mq-xl: 76.5em;
+$mq-xxl: 114em;
+
+@import "header";
+@import "footer";
+@import "sportWeekPost";
+@import "authentication";
+@import "homeFavorite";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

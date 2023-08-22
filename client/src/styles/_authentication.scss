@@ -1,0 +1,180 @@
+
+.Auth-signin-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    height: 70vh;
+    padding-right: 30px;
+    background-image: url(https://garden.spoonflower.com/c/9909895/p/f/m/2iH65VDiTvgzoBCijZYQWSSoo5kTuBcbbMveLO0Qo5ZiB4JBO3ojjjgD/nurse%20-%20multi%20baby%20feet%20-%20pink%2Fblue%2Fgrey%20-%20nursing%20-%20LAD20.jpg);
+    
+    img{
+        height: 400px;
+        width: 50vw;
+    }
+
+    .Auth-form {
+        width: 50vw;
+        box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 8px;
+        background-color: rgba($backgroundpink,0.7);
+
+        .Auth-form-content {
+            padding-left: 12%;
+            padding-right: 12%;
+
+            .Auth-form-title {
+                text-align: center;
+                margin-bottom: 1em;
+                font-size: 24px;
+                color: $textpink;
+                font-weight: 800;
+                font-family: $fontFamilyForTitle;
+            }
+
+            label {
+                font-size: 14px;
+                font-weight: 600;
+                font-family: $fontFamilyForTitle;
+                color: $textpink;
+            }
+            input{
+                font-family: $fontFamilyForDesign;
+                &:focus{
+                    background-color: $backgroundgreen;
+                }
+            }
+            .btn-primary{
+                background-color: $textpink;
+            }
+            p{
+                font-family: $fontFamilyForTitle;
+                color: $textpink;
+                text-align: center;
+            }
+        }
+
+    }
+
+}
+.Auth-signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    height: 120vh;
+    padding-right: 30px;
+    background-image: url(https://garden.spoonflower.com/c/9909895/p/f/m/2iH65VDiTvgzoBCijZYQWSSoo5kTuBcbbMveLO0Qo5ZiB4JBO3ojjjgD/nurse%20-%20multi%20baby%20feet%20-%20pink%2Fblue%2Fgrey%20-%20nursing%20-%20LAD20.jpg);
+    
+    img{
+        height: 400px;
+        width: 50vw;
+    }
+
+    .Auth-form {
+        width: 50vw;
+        box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 8px;
+        background-color: rgba($backgroundpink,0.7);
+
+        .Auth-form-content {
+            padding-left: 12%;
+            padding-right: 12%;
+            label{
+                font-family: $fontFamilyForTitle;
+            }
+        }
+
+    }
+
+} 
+.profileDetails{
+    font-family: $fontFamilyText;
+    margin: 20px;
+    input{
+        appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid $pinkflash;
+        background: rgba($pinkflash, .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: $pinkflash;
+    }
+    .my-4{
+        background-color: #fff;
+        justify-items: center;
+        align-items: center;
+
+        .avatar-xl{
+            justify-items: center;
+            text-align: center;
+            align-items: center;
+            img{
+                vertical-align: middle;
+                border-style:groove;
+            }
+            .rounded-circle {
+                width: 110px;
+                border-radius: 50% !important;
+            }
+            .score{
+                width: 120px;
+                text-align: center;
+                height: 120px;
+                padding: 20px;
+                margin: 20px;
+                font-size: medium;
+                border-style: dashed;
+                background-color: #fff;
+                img{
+                    height: 60px;
+                    width: 55px;
+                }
+              }
+        }
+    }
+    .my-4{
+        .text-muted {
+            color: black !important;
+            font-weight: 300;
+        }
+        input{
+            appearance: none;
+            border: none;
+            outline: none;
+            border-bottom: .2em solid $pinkflash;
+            background: rgba($pinkflash, .2);
+            border-radius: .2em .2em 0 0;
+            padding: .4em;
+            color: $pinkflash;
+        }
+        // .form-control {
+            
+        //     display: block;
+        //     width: 100%;
+        //     height: calc(1.5em + 0.75rem + 2px);
+        //     padding: 0.375rem 0.75rem;
+        //     font-size: 0.875rem;
+        //     font-weight: 400;
+        //     line-height: 1.5;
+        //     color: #4d5154;
+        //     background-color: #ffffff;
+        //     background-clip: padding-box;
+        //     border: 1px solid #eef0f3;
+        //     border-radius: 0.25rem;
+        //     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        // }
+    }
+}
+
+  
+
+  
+  
+  
+  

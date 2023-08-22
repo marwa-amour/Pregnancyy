@@ -1,0 +1,102 @@
+
+.bg-body-tertiary{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/007/523/339/original/abstract-colorful-hand-painted-watercolor-splashing-background-free-vector.jpg);
+    height: 600px;
+    align-items: center;
+
+    .brand{
+        border-radius: 20px;
+    }
+    h3,p{
+        text-align: center;
+        font-family: $fontFamilyTilt;
+    }
+
+    .me-auto{
+        text-align: center;
+        display: flex;
+        width: 75%;
+        //background-color: $backgroundpink;
+        .link{
+            justify-content: space-between;
+            width: 200px;
+            font-family: $fontFamilyForTitle;
+        }
+        .link:nth-child(2n){
+            color: $textpink;
+            text-shadow: 2px 2px 4px $backgroundpurple;
+            background-color: $backgroundpurple;
+
+            &:hover{
+                background-color: #fff;
+                box-shadow: 2px 2px 2px 2px inset $backgroundpurple;
+            }
+        }
+        .link:nth-child(2n-1){
+            color: $textpurple;
+            text-shadow: 2px 2px 4px $backgroundpurple;
+            background-color: $backgroundpink;
+
+            &:hover{
+                background-color: #fff;
+                box-shadow: 2px 2px 2px 2px inset $backgroundpink;
+            }
+            
+        }
+
+    }
+    
+
+
+  .LoggedIn {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-decoration:none;
+        color: antiquewhite;
+        gap: 13px;
+        margin-top: 20px;
+        .name{
+            text-decoration: none;
+        }
+        h5{
+            color:black;
+            text-decoration: none;
+            font-family: $fontFamilyTilt, cursive;
+        
+        }
+        img {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .signout-icon {
+            height: 30px;
+            cursor: pointer;
+            transition: transform 0.5s;
+            transform: rotate(0deg);
+
+            &:hover {
+                transition: transform 0.5s;
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .NotLoggedIn {
+        img{
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+    }
+  
+}
+.Admin{
+    background-color: black;
+    margin-left: 0;
+    padding: 20px;
+    font-family: $fontFamilyText;
+}
